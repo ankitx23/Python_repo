@@ -13,3 +13,6 @@ print (y)
 
 z%=3
 print (z)
+
+z/=3
+print (z)
