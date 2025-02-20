@@ -42,5 +42,16 @@ e= student.values()
 #print the items (keys with their values)
 
 f=  student.items()
-print (f)
+#print (f)
+
+
+#copy in dictonary
+
+new = student.copy()
+print (new)
+
+new.clear()
+
+print (new)
+
 
