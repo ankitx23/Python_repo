@@ -1,8 +1,8 @@
 #assign list to a list, it should be always in square bracket
 
 list = [1,2,3,4,7,9,0]
-print (list)
-print (type(list))
+#print (list)
+#print (type(list))
 
 #function to add the numbers in list
 
@@ -16,21 +16,28 @@ b =[3,4,6,7,"d", 4.9, "adsjkhg"]
 
 #function to update item in a given list by using indexing using above list
 
-print (b[0])
+#print (b[0])
                 #modify the list
 
 b[0]=78
 
-print (b)
+#print (b)
 
 #print the average/mean of a llist
 
 c= [34,45,56,67,78,89,90,1,12,23]
 
 e= len(c)
-d= sum(c)/e
+d= sum(c)
+f= d/e
 
+print (f) #avg 
+#to print the sum of a list
 print (d)
+#to print the max from a list
+print (max(c))
+#to print the minimum value of a list
+print (min(c))
 
 
 
