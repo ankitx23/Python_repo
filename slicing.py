@@ -1,6 +1,18 @@
 #Normal slicing #it starts with zero from left side and from right to left is starts from -1
 
 string = "ANKIT, COMPUTER SCIENCE"
+
+#retrieve the index of substring in a string
+
+index= string.find("ANKIT")
+print (index)
+
+#using count on string
+count = string.count()
+print (count)
+
+
+
 #print (len(string))
 #print (string[0:6])
 #print (string[7:])
