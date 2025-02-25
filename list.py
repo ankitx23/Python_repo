@@ -39,7 +39,12 @@ print (max(c))
 print (min(c))
 
 #enumerate
-print (list(enumerate(c))) #this prints the index with the value of list
+#print (list(enumerate(c))) #this prints the index with the value of list
 
 
- 
+#zip function #should ve same quantity
+
+t= [1,2,3,4,5,6]
+u= ['a','b','c','d','e',"f"]
+
+print (list (zip(t,u)))
