@@ -11,6 +11,19 @@ student = {
   "phone": (7,4,6,23,47,8,23)
 }
 
+#get all the keys
+x= student.keys()
+print (x)
+#get the values
+y= student.values()
+print (y)
+
+#get both
+z= student.items()
+print (z)
+
+
+
 #using get() to get age strom the dict
 age = student.get("age")
 print (age)
