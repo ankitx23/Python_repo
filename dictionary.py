@@ -69,7 +69,6 @@ new = student.copy()
 print (new)
 
 new.clear()
-
 print (new)
 
 
