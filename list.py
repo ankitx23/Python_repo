@@ -1,12 +1,11 @@
 #assign list to a list, it should be always in square bracket
-
-list = [1,2,3,4,7,9,0]
+#list = [1,2,3,4,7,9,0]
 #print (list)
 #print (type(list))
 
 #function to add the numbers in list
 
-a= sum(list)
+#a= sum(list)
 #print (a)
 
 # python is flexible with adding any type of item in the list like you can add int, float, string , char
@@ -39,6 +38,8 @@ print (max(c))
 #to print the minimum value of a list
 print (min(c))
 
+#enumerate
+print (list(enumerate(c))) #this prints the index with the value of list
 
 
  
