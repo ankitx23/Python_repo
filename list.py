@@ -30,13 +30,13 @@ e= len(c)
 d= sum(c)
 f= d/e
 
-print (f) #avg 
+#print (f) #avg 
 #to print the sum of a list
-print (d)
+#print (d)
 #to print the max from a list
-print (max(c))
+#print (max(c))
 #to print the minimum value of a list
-print (min(c))
+#print (min(c))
 
 #enumerate
 #print (list(enumerate(c))) #this prints the index with the value of list
@@ -47,11 +47,20 @@ print (min(c))
 t= [1,2,3,4,5,6]
 u= ['a','b','c','d','e',"f"]
 
-print (list (zip(t,u)))
+#print (list (zip(t,u)))
 
 
 #count repeatitive numbers in a list
-z= (1,2,3,4,545,5,4,4,5,4,4,4,7)
+z= [1,2,3,4,545,5,4,4,5,4,4,4,7]
 
 count = z.count(4)
-print ("count of element 2 is : ", count)
+#print ("count of element 2 is : ", count)
+
+#sorting list
+
+y= sorted(z)
+print (y)
+
+
+m= z.append(23)
+print (z)
