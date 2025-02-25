@@ -11,6 +11,11 @@ student = {
   "phone": (7,4,6,23,47,8,23)
 }
 
+#using get() to get age strom the dict
+age = student.get("age")
+print (age)
+
+
 
 #printing name
 a=student["name"]
